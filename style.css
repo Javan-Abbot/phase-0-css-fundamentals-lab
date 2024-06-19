@@ -3,3 +3,39 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 {
+  text-align: center;
+}
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: lightgreen;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  margin: auto;
+  display: block;
+ }
+figcaption {
+  font-size: smaller;
+  text-align: center;
+ }
+#featured-property p {
+  width: 800px;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+#details div {
+  float: left;
+  width: 800px;
+}
+div {
+  background-color: lightpink;
+  text-align: center;
+  max-width: 25%;
+}
